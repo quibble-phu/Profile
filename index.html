@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - นายคนเก่ง</title>
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation" id="bgAnimation"></div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor" id="cursor"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">quibble-dev</div>
+            <ul class="nav-menu">
+                <li><a href="#home">หน้าแรก</a></li>
+                <li><a href="#about">เกี่ยวกับ</a></li>
+                <li><a href="#skills">ความสามารถ</a></li>
+                <li><a href="#projects">โปรเจค</a></li>
+                <li><a href="#contact">ติดต่อ</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+             <h1>สวัสดี 👋 ผม <span class="accent">Phoomrapee Sirirat</span></h1>
+            <p>Web&Software Developer, Automation, AI/ML, Data, and IoT</p>
+            <a href="#projects" class="cta-button">ดูผลงาน</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="fade-in">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="profile-img">
+               
+                <img src="assets/profile.JPG" alt="Profile Picture">
+            </div>
+            <div class="about-text">
+                <p>ผมชื่อภู ปัจจุบันเป็นนักศึกษาวิศวกรรมระบบการผลิตที่ <strong>KMITL</strong> มีประสบการณ์ฝึกงานที่สยามคูโบต้า และกำลังฝึกงานที่ฮีโน่มอเตอร์ </p>
+                <br>
+                <p>ผมชอบการเรียนรู้เทคโนโลยีใหม่ๆ เพื่อแก้ปัญหาในโลกจริง</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="fade-in">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card project-card Strong">
+                <div class="project-badge i">Intermediate</div>
+                <span class="skill-icon">💻</span>
+                <h3>Frontend</h3>
+                <p>HTML, CSS, JavaScript, Bootstrap5</p>
+            </div>
+            <div class="skill-card project-card Strong">
+                <div class="project-badge i">Intermediate</div>
+                <span class="skill-icon">⚙️</span>
+                <h3>Backend</h3>
+                <p>Python, PHP, FastAPI</p>
+            </div>
+            <div class="skill-card project-card completed">
+                <div class="project-badge sb">Novice</div>
+                <span class="skill-icon">🗄️</span>
+                <h3>Database</h3>
+                <p>MySQL, SQLITE</p>
+            </div>
+            <div class="skill-card project-card completed">
+                <div class="project-badge sb">Novice</div>
+                <span class="skill-icon">☁️</span>
+                <h3>Cloud & Tools</h3>
+                <p>Docker, Git, Linux</p>
+            </div>
+            <div class="skill-card project-card in-progress">
+                <div class="project-badge sb">Strong</div>
+                <span class="skill-icon">🤖</span>
+                <h3>AI&IoT</h3>
+                <p>Python, esp32,<img src="assets/E1C9.svg" alt="Portfolio logo" width="24" height="24"/></p>
+            </div>
+             <div class="skill-card project-card Strong">
+                <div class="project-badge i">Intermediate</div>
+                <span class="skill-icon">🦾</span>
+                <h3>Automation</h3>
+                <p>PLC, HMI, CiRA CORE</p>
+            </div>
+            <div class="skill-card project-card learning">
+                 <div class="project-badge sb">Learning</div>
+                <span class="skill-icon">📱</span>
+                <h3>Mobile</h3>
+                <p>React Native, Flutter, Progressive Web Apps</p>
+            </div>
+            <div class="skill-card project-card learning">
+                 <div class="project-badge sb">Learning</div>
+                <span class="skill-icon">🎨</span>
+                <h3>Design</h3>
+                <p>UI/UX Design, Figma</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="fade-in">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <a href="AI-Detection.html" class="project-card completed">
+                <div class="project-badge">Completed</div>
+                <div class="project-image">🤖</div>
+                <div class="project-info">
+                    <h3>Semi-automation AI Dectection Part</h3>
+                    <p>ระบบตรวจสอบชิ้นส่วน ตรวจรุ่น เพื่อป้องกันความผิดพลาด</p>
+                    <div class="project-tags">
+                        <span class="tag">CiRA CORE</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">API</span>
+                    </div>
+                </div>
+            </a>
+           <a href="E-Commerce.html" class="project-card learning">
+                <div class="project-badge">Learning</div>
+                <div class="project-image">🛒</div>
+                <div class="project-info">
+                    <h3>E-Commerce Platform</h3>
+                    <p>แพลตฟอร์มอีคอมเมิร์ซแบบครบวงจร พร้อมระบบการจัดการสินค้า การชำระเงิน และการติดตามออเดอร์</p>
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Node.js</span>
+                        <span class="tag">MongoDB</span>
+                        <span class="tag">Rest API</span>
+                    </div>
+                </div>
+            </a>
+
+            <a href="cmms.html" class="project-card in-progress">
+                <div class="project-badge">In Progress</div>
+                <div class="project-image">🌐</div>
+                <div class="project-info">
+                    <h3>Web App Computerized Maintenance Management System (CMMS)</h3>
+                    <p>เว็บแอปพลิเคชัน ระบบบริหารจัดการงานซ่อมบำรุงด้วยคอมพิวเตอร์</p>
+                    <div class="project-tags">
+                        <span class="tag">PHP</span>
+                        <span class="tag">MySQL</span>
+                        <span class="tag">Chart.js</span>
+                        <span class="tag">Bootstrap5</span>
+                    </div>
+                </div>
+            </a>
+            <a href="meter-man.html" class="project-card completed">
+                <div class="project-badge">Completed</div>
+                <div class="project-image">📊</div>
+                <div class="project-info">
+                    <h3>Meter Man Dashboard</h3>
+                    <p>LineBot AI อ่านมิเตอร์น้ำ พร้อมแดชบอร์ดวิเคราะห์ข้อมูลแบบเรียลไทม์ สำหรับติดตามและวิเคราะห์ผล</p>
+                    <div class="project-tags">
+                        <span class="tag">LineBot</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">Node red</span>
+                        <span class="tag">OCR</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="fade-in">
+        <h2>Contact</h2>
+        <div class="contact-content">
+            <p>สนใจร่วมงานหรือมีโปรเจคที่น่าสนใจ? ผมยินดีที่จะได้คุยกันครับ!</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span class="contact-icon">📧</span>
+                    <span>test.email@example.com</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">📱</span>
+                    <span>+66 XX-XXX-XXXX</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">💼</span>
+                    <span>linkedin.com/in/test</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">🐙</span>
+                    <span>github.com/test</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>© 2025 Phoomrapee Sirirat. All rights reserved.</p>
+            
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
