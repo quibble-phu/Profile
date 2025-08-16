@@ -35,6 +35,14 @@
             animation: float 6s ease-in-out infinite;
             box-shadow: 0 0 10px rgba(0, 245, 255, 0.5);
         }
+        .footer-content {
+            background: rgba(10, 10, 10, 0.8);
+            padding: 50px 20px;
+            text-align: center;
+            color: #e0e6ed;
+            position: relative;
+            z-index: 1000;
+        }
         .accent{background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent}
 
         @keyframes float {
@@ -296,9 +304,9 @@
             backdrop-filter: blur(15px);
             border: 1px solid rgba(0, 245, 255, 0.2);
             position: relative;
-            display: block;             /* ทำให้ a ครอบเป็น block ได้ */
-            text-decoration: none;      /* เอาเส้นใต้ลิงก์ออก */
-            color: inherit;             /* ให้ใช้สีตาม parent */
+            display: block;            
+            text-decoration: none;     
+            color: inherit;    
         }
 
         .project-card::after {
